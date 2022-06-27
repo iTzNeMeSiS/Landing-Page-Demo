@@ -11,13 +11,103 @@
   width: auto;
 }
 
+
+.cta-header,
+.cta-sen,
+.cta-button,
+.logo-text,
+.nav-item,
+.hero-text,
+.hero-sec-text,
+.hero-button,
+.card-text,
+.card-header,
+.quote-author,
+.copyright-text
+ {
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header,
+.nav ul,
+.hero,
+.cards,
+.card,
+.quote-container,
+.cta,
+.cta-container {
+    display: flex;
+}
+.header,
+.hero,
+.cards,
+.cta {
+    justify-content: space-around;
+}
+.header,
+.nav ul,
+.hero,
+.card,
+.cta-container,
+.cta {
+    align-items: center;
+}
+.card,
+.quote-container,
+.cta-container {
+    justify-content: center;
+}
+.card-text,
+.card-header,
+.copyright-text {
+    text-align: center;
+}
+.logo-link,
+.nav-item,
+.nav-item:hover,
+.card-link {
+    text-decoration: none;
+}
+#nav-active:hover,
+.logo-link,
+.nav-item,
+.card-link {
+    color: black;
+}
+.hero-text,
+.hero-sec-text,
+.cta,
+.cta-button {
+    color: white;
+}
+.cards,
+.cta {
+    flex-wrap: wrap;
+}
+.cta-button,
+.hero-button,
+.card {
+    transition: all .2s ease-in-out;
+
+}
+.cta,
+.hero-button,
+.card,
+.cta,
+.cta-button {
+    border-radius: 11px;
+}
+.card,
+.quote-container {
+    flex-direction: column;
+}
+.hero,
+.quote-container {
+    background-position: center;
+}
 /* Header */
 
 .header {
     height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -25,35 +115,20 @@
     border-bottom: 1px solid rgb(224, 224, 224);
     z-index: 99;
 }
-.logo-text {
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.logo-link {
-    text-decoration: none;
-    color: black;
-}
+
 /* Navigation */
 .nav ul {
-    display: flex;
     list-style-type: none;
     justify-content: space-between;
-    align-items: center;
 }
 .nav-item {
     padding-left: 10px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .nav-item:hover {
     color: grey;
-    text-decoration: none;
 }
 #nav-active {
     font-weight: 500;
-}
-#nav-active:hover {
-    color: black;
 }
 
 /* Hero */
@@ -62,13 +137,9 @@
     background-color: rgba(0, 0, 0, 0.899);
 }
 .hero {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 50px;
     background-image: linear-gradient(to right, rgba(25, 25, 25, 0.7), rgba(25, 25, 25, 0.7)), url("./images/herobg.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     height: 100vh;
 }
@@ -78,15 +149,11 @@
 }
 .hero-text {
     padding-bottom: 15px;
-    color: #F9FAF8;
     font-size: 48px;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .hero-sec-text {
     font-size: 18px;
-    color: #E5E7EB;
     padding-bottom: 15px;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .hero-bg {
     width: 100vw;
@@ -100,11 +167,8 @@
 }
 .hero-button {
     padding: 10px 30px;
-    transition: all .2s ease-in-out;
     margin: 5px;
-    border-radius: 8px;
     font-size: 16px;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .hero-button:hover {
     transform: scale(1.1);
@@ -117,23 +181,14 @@
 /* Cards */
 
 .cards {
-    display: flex;
-    justify-content: space-around;
     padding: 100px 50px;
     gap: 30px;
-    flex-wrap: wrap;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 20px 30px;
     height: 330px;
     gap: 5px;
-    border-radius: 10px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-    transition: all .2s ease-in-out;
     max-width: 290px;
 }
 .card:hover {
@@ -142,37 +197,25 @@
 .card-image {
     max-width: 250px;
 }
-.card-text {
-    text-align: center;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .card-text:nth-of-type(1) {
     padding-top: 5px;
 }
 .card-header {
-    text-align: center;
     padding-top: 100px;
     font-size: 36px;
     font-weight: 900;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #1F2937;
 }
-.card-link {
-    text-decoration: none;
-    color: black;
-}
+
 
 /* Quote */
 
 .quote-container {
     background-image: url("./images/quotebg.png");
     background-attachment: fixed;
-    background-position: center;
     font-size: 36px;
     color: #1F2937;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     padding: 100px 90px;
     border: 1px solid rgb(213, 213, 213);
 }
@@ -182,41 +225,24 @@
     padding-top: 5px;
     text-align: right;
     padding-right: 70px;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Call to action */
 .cta-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 350px;
 
 }
 .cta {
     padding: 20px;
-    display: flex;
-    justify-content: space-around;
     background-color: #0275d8 ;
     width: 1200px;
     height: 140px;
-    border-radius: 11px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    align-items: center;
-    color: white;
-    flex-wrap: wrap;
 }
-.cta-header,
-.cta-sen,
-.cta-button {
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 .cta-button {
     padding: 15px 15px;
-    transition: all .2s ease-in-out;
-    border-radius: 40px;
     background-color: #f14e4e;
-    color: white;
     border: red;
     font-size: 14px;
 }
@@ -231,10 +257,6 @@
 .footer {
     padding: 50px;
     border-top: 1px solid rgb(223, 223, 223);
-}
-.copyright-text {
-    text-align: center;
-    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Responsive */
