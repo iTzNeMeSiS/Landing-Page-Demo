@@ -118,7 +118,6 @@
 
 .cards {
     display: flex;
-    align-items: ;
     justify-content: space-around;
     padding: 100px 50px;
     gap: 30px;
@@ -206,9 +205,6 @@
     align-items: center;
     color: white;
     flex-wrap: wrap;
-}
-.cta-sen {
-   
 }
 .cta-header,
 .cta-sen,
