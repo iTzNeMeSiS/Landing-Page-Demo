@@ -12,5 +12,5 @@ After completing this project, I have accomplished:
     Properly implemented various types of CSS selectors.
 
 Skills learned in this project:<br>
-![alt html logo](/resources/html.png) ![alt css logo](/resources/css.png) ![alt git logo](/resources/git.png) ![alt vscode logo](/resources/vscode.png)<br>
+![alt html logo](/images/html.png) ![alt css logo](/images/css.png) ![alt git logo](/images/git.png) ![alt vscode logo](/images/vscode.png)<br>
 Source of project: https://www.theodinproject.com/paths/foundations/courses/foundations
