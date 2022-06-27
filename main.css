@@ -254,6 +254,7 @@
     .quote-container {
         padding: 80px 20px;
         font-size: 25px;
+        text-align: center;
     }
     .quote-author {
         font-size: 20px;
@@ -281,6 +282,12 @@
     .cta {
         height: 190px;
         flex-wrap: wrap;
+    }
+    .copyright-text {
+        font-size: 13px;
+    }
+    .footer {
+        padding: 40px;
     }
 }
 
