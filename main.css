@@ -166,7 +166,7 @@
 /* Quote */
 
 .quote-container {
-    background-image: url("../images/quote-bg.png");
+    background-image: url("/images/quote-bg.png");
     background-attachment: fixed;
     background-position: center;
     font-size: 36px;
