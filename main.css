@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    border: 2px solid blue;
+    height: auto;
+    width: auto;
+}
+.header {
+    border: 2px solid red;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    padding-left: 10px;
+}
