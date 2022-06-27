@@ -13,4 +13,7 @@ After completing this project, I have accomplished:
 
 Skills learned in this project:<br>
 ![alt html logo](/images/html.png) ![alt css logo](/images/css.png) ![alt git logo](/images/git.png) ![alt vscode logo](/images/vscode.png)<br>
+
+Live Version: https://itznemesis.github.io/Odin-Landing-Page-Demo/
+
 Source of project: https://www.theodinproject.com/paths/foundations/courses/foundations
