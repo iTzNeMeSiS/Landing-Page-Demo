@@ -1,4 +1,4 @@
-# Landing-Page-Demo
+# Odin-Landing-Page-Demo
 
 
 This project is to build on practicing my basic HTML, CSS knowledge that I have learned while doing the Odin project. I will be building a basic responsive landing page.
@@ -17,3 +17,7 @@ Skills learned in this project:<br>
 Live Preview: https://itznemesis.github.io/Odin-Landing-Page-Demo/
 
 Source of project: https://www.theodinproject.com/paths/foundations/courses/foundations
+
+Preview: 
+
+![alt Landing-Page-Demo](/images/preview.png)
